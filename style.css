@@ -1,0 +1,138 @@
+body {
+margin: auto;
+padding: 0px;
+font-family: 'Lucida Grande';
+}
+
+a {
+text-decoration: none;    
+}
+
+* {box-sizing: border-box;}
+
+.clear {
+clear: left;
+}
+
+header{
+border: 1px solid red;
+background-color: crimson;
+width: 100%;
+color: #f6f;
+position: fixed;
+font-size: 22px;
+top: 0;
+z-index: 10;
+height: 150px
+}
+
+header h1{
+font-size: 20px;
+margin-left: 12px;
+}
+
+.header-logo{
+float: left;
+padding:
+}
+
+.header-logo img {
+border-radius: 155px;
+height: 100px;
+margin: 0 5rem;
+}
+
+nav {
+margin-top: 1.6rem;
+margin-left: 49rem;
+}
+
+.header_navbar nav a{
+color: #fff;
+padding: 0 4rem;
+}
+
+
+.header_navbar a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* CSS for menu-icon */
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+
+main {
+width: 100%;
+max-width: 100%;
+}
+
+.top-container{
+background-image: url(./images/cool.jpg);
+background-size: cover;
+text-align: center;
+padding: 180px 0 100px 0;
+}
+
+.top-container h1 {
+    font-size: 140px;
+}
+  
+.top-container h2 {
+    font-size: 60px;
+    opacity: 0.5px;
+}
+  
+.top-container span {
+    color: crimson;
+}
+
+.contents{
+  height: 500px;
+}
+  
+.section-title{
+    border-bottom: 2px solid #dee7ec; 
+    font-size: 28px;
+    padding-bottom: 15px;
+}
+  
+.contents-item{
+  float: left;
+  width: 25%;
+  text-align: center; 
+  position: relative;
+}
+
+.contents-item p {
+  position: absolute;
+  top: 65px;
+  width: 100%;
+  font-size: 20px;
+  color: white;
+}
+
+.txt-contents{
+  width: 
+  margin-top: 20px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+
+  footer {
+    background-color: #2f5167;
+    padding: 40px;
+    width: 100%;
+    max-width: 100%;
+  }
+  
+.footer_navbar a{
+color: #fff;
+margin-right: 3rem;
+font-size: 20px
+}
+

@@ -1,11 +1,11 @@
 /* For Tablets */
 @media all and (max-width: 1000px) {
-  .contents-item {
+  .career-path {
     width: 50%;
     margin-bottom: 50px;
   }
   
-  .top-container h1 h2 {
+  .top-container h1  {
     font-size: 32px;
   }
   
@@ -16,13 +16,10 @@
 
 /* For Smartphones */
 @media all and (max-width: 670px) {
-  .contents-item {
+  .career-path {
     width: 100%;
   }
 
-  main {
-    width: 100%;
-  }
   
   footer {
     text-align: center;
@@ -32,19 +29,26 @@
     text-align: left;
   }
   
-  /* Add CSS for header-nav */
-  .header_navbar {
-    display: none;
-  }
   
-  /* Add CSS for menu-icon */
-  .menu-icon {
+ .header-logo img { 
+  margin: 0;
+  padding: 0;
+}
+
+  /* 
+  Add CSS for menu-icon 
+  .icon {
     display: block;
-  }
+  }*/
   
-  .top-container h1 h2 {
+  .top-container h1 {
     font-size: 24px;
     line-height: 36px;
   }
   
+  .top-container h1 {
+     font-size: 14px;
+    line-height: 20px;
+  }
+
 }

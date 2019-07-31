@@ -3,85 +3,200 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>My Portfolio</title>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- font awesome -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+          <!--Import Google Icon Font-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+          <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+        <title>Myportfolio</title>
         <link rel="stylesheet" href="style.css">
        <link rel="stylesheet" href="responsive.css">
-       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-       <script src="jquery.min.js"></script>
     </head>
     <body>
-        <header>
-            <div class="container">
-                <h1>IKUDAYISI OMOTAYO TITI</h1>
-                <div class="header-logo">
-                    <img src="./images/logo.jpg">
-                </div>
-            
-                <!-- Add a menu icon here
-                <div>
-                  <span class="fa fa-bars menu-icon"></span>
-                </div> -->
 
-                <div class = "header_navbar">
-                        <a href="./cv/cv.html" target="blank">Curriculum-Vitae</a>
-                        <a href="projects.html" target="blank">Projects</a>  
-                </div>
-                <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links 
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                    <i class="fa fa-bars"></i>
-                </a>-->
-            </div>    
+        <!-- navbar -->
+        <header>
+            <nav class="nav-wrapper crimson">
+                <div class="container">
+                    <a href="#" class="header-logo">IKUDAYISI OMOTAYO TITI <img src="./images/logo.jpg"></a>
+                     <!-- Add a menu icon here-->
+                    <a href="#" class="sidenav-trigger" data-target="mobile-menu">
+                        <i class="material-icons">menu</i>
+                    </a>
+            
+
+                    <div class = "header_navbar right hide-on-med-and-down">
+                            <a href="#index">Home</a>
+                            <a href="#About">About</a>
+                            <a href="https://medium.com/@omotayotitijames" target="blank">Blog</a>
+                            <a href="projects.html" target="blank">Projects</a>  
+                            <a href="#Contact">Contact</a>
+                    </div>
+                    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links 
+                    -->
+                    <ul class="sidenav grey lighten-4" id="mobile-menu">
+                      <li><a href="#index">Home</a></li>
+                      <li><a href="#About">About</a></li>
+                      <li><a href="https://medium.com/@omotayotitijames" target="blank">Blog</a></li>
+                      <li><a href="projects.html" target="blank">Projects</a> </li>
+                      <li><a href="#Contact">Contact</a></li>
+                    </ul>
+
+                </div> 
+            </nav>       
         </header>
+
         <div class="top-container">
             <div class="container">
                 <h1>WELCOME<span>!!!</span></h1>
                 <h2>Nice meeting you</h2>
+                <a class="action-btn black lighten-1" href="mailto:omotayotitijames@gmail.com" target="_blank">Hire me</a>
             </div>
         </div>
-        <div class="contents">
+
+        <!-- cards -->
+        <div class="wrapper scrollspy" id="About">
             <div class="container">
-                <h3 class="section-title">Who I am<span>...</span></h3>
-                <div class="careers">
-                    <div class="career">
-                        <div class="career-path">
-                            <img src="./images/olive.png" alt="Front End Ninja">
-                            <p>Front End Ninja</p>
-                        </div> 
-                        <p class="txt-contents"></p>
+                <div class="">
+
+
+                        <div class="contents">
+                            <div class="container">
+                                <h3 class="section-title">Who I am<span>...</span></h3>
+                                <div class="careers">
+                                    <div class="career">
+                                        <div class="career-path">
+                                            <img src="./images/olive.png" alt="Front End Ninja">
+                                            <p>Front End Ninja</p>
+                                        </div> 
+                                        <p class="txt-contents"></p>
+                                    </div>
+                                    <div class="career">
+                                        <div class="career-path">
+                                            <img src="./images/gold.png" alt="Data Scientist">
+                                            <p>Data Scientist</p>
+                                        </div>
+                                        <p class="txt-contents"></p>
+                                    </div>
+                                    <div class="career">
+                                        <div class="career-path">
+                                            <img src="./images/blue.png" alt="Artificial Intelligence Expert">
+                                            <p>AI Expert</p>
+                                        </div>
+                                        <p class="txt-contents"></p>
+                                    </div>
+                                    <div class="career">
+                                        <div class="career-path">
+                                                <img src="./images/ruby.png" alt="Statistical Field work/ Researcher">
+                                                <p>Statistician</p>
+                                        </div>
+                                        <p class="txt-contents"></p>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>    
+                            </div>
+                        </div>    
                     </div>
-                    <div class="career">
-                        <div class="career-path">
-                            <img src="./images/gold.png" alt="Data Scientist">
-                            <p>Data Scientist</p>
-                        </div>
-                        <p class="txt-contents"></p>
-                    </div>
-                    <div class="career">
-                        <div class="career-path">
-                            <img src="./images/blue.png" alt="Artificial Intelligence Expert">
-                            <p>AI Expert</p>
-                        </div>
-                        <p class="txt-contents"></p>
-                    </div>
-                    <div class="career">
-                        <div class="career-path">
-                                <img src="./images/ruby.png" alt="Statistical Field work/ Researcher">
-                                <p>Statistician</p>
-                        </div>
-                        <p class="txt-contents"></p>
-                    </div>
-                    <div class="clear"></div>
-                </div>    
+                </div>
             </div>
-        </div>    
-        <footer>
+                        
+
+
+            <section class="container section scrollspy" id="Contact">
+            <div class="row">
+              <div class="col s12 l6">
+                <ul class="tabs">
+                  <li class="tab col s6">
+                    <a href="#dataanalysis" class="indigo-text text-darken-4">Data Analysis</a>
+                  </li>
+                  <li class="tab col s6">
+                    <a href="#websitedesign" class="indigo-text text-darken-4">Website Design</a>
+                  </li>
+                </ul>
+                <div class="col s12" id="dataanalysis">
+                  <p class="flow-text indigo-text text-darken-4">DATA ANALYSIS</p>
+                  <P>Let's help you with your statistical data analysis. Be it for Trend/ Forecast to facilitate good decision making in your organisation. Are you doing a research that requires data analysis, let's assist you in using a compatible statistical model in ganing insights </P>
+                </div>
+                <div class="col s12" id="websitedesign">
+                  <p class="flow-text indigo-text text-darken-4">WEBSITE DESIGN</p>
+                  <P>Let us help you build a modern website with a user friendly interface, easy to navigate and fully responsive with HTML CSS REACT BOOTSTRAP JAVASCRIPT and WORDPRESS. We build according to your organisation's requirement.</P>
+                </div>
+                </div>
+                <!--Forms --> 
+                 <div class="col s12 l4 offset-l2">
+                   <form action="mailto: omotayotitijames@gmail.com" target="_blank" method="post">
+                   <div class="input-field">
+                     <i class="material-icons prefix">face</i>
+                       <input type="text" id="name" name="name" required="required">
+                         <label for="name"> Your name</label>
+                     </div>
+                     <div class="input-field">
+                     <i class="material-icons prefix">email</i>
+                       <input type="email" id="email" name="email" required="required">
+                         <label for="email"> Your Email</label>
+                     </div>
+                     <div class="input-field">
+                     <i class="material-icons prefix">message</i>
+                       <textarea id="message" class="materialize-textarea" name="message" required="required"></textarea>
+                       <label for="message"> Your Message</label>
+                     </div>
+                     <div class="input-field">
+                       <input type="text" id="date" class="datepicker" name="date" required="required">
+                         <label for="date">choose a deliverey date for your work...</label>
+                     </div>
+                     <div class="input-field">
+                     <p>Please Specify Service type...</p>
+                     <p>
+                       <label>
+                         <input type="checkbox" name="dataanalysis">
+                         <span>Data Analysis</span>
+                       </label>
+                     </p>
+                      <p>
+                       <label>
+                         <input type="checkbox" name="websitedesign">
+                         <span>Website Design</span>
+                       </label>
+                     </p>
+                     </div>
+                     <div class="input-field center">
+                     <button class="btn-small">submit</button>
+                     </div>
+                   </form>
+                   <div style="display:none;" id="thankyou_message">
+                   <h2>
+                   <em>Thanks</em> for contacting us!
+                    We will get back to you soon!
+                   </h2>
+                   </div>
+              </div>
+            </div>
+          </section>
+
+
+
+         <footer>
             <div class="footer_navbar">
-                    <a href="https://github.com/glitzabeth">Github<span class="fa fa-github"></span></a>
-                    <a href="https://www.twitter.com/JAMEOMOTAYOTITI1">Twitter<span class="fa fa-twitter"></span></a>
-                    <a href="omotayotitijames@gmail.com">Email<span class="fa fa-email"></span></a>
-                    <a href="https://www.linkedin.com/in/omotayo-ikudayisi-fds/">Linkedin<span class="fa fa-linkedin"></span></a>
+                    <a href="https://github.com/glitzabeth" target="_blank" class="tooltipped btn-floating btn-small grey darken-4" data-position="bottom" data-tooltip="Github"> 
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.twitter.com/JAMEOMOTAYOTITI1" target="_blank" class="tooltipped btn-floating btn-small grey darken-4" data-position="bottom" data-tooltip="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="omotayotitijames@gmail.com" target="_blank" class="tooltipped btn-floating btn-small grey darken-4" data-position="bottom" data-tooltip="Email"> 
+                        <i class="fab fa-email"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/omotayo-ikudayisi-fds/" target="_blank" class="tooltipped btn-floating btn-small grey darken-4" data-position="bottom" data-tooltip="Linkedin"> 
+                        <i class="fab fa-linkedin"></i>
+                    </a>
             </div>
         </footer>
-        <!--<script src="app.js"></script>-->
+
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+        <script src="app.js"></script>
     </body>
 </html>

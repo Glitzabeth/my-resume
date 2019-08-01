@@ -28,7 +28,7 @@ header{
 background-color: crimson;
 width: 100%;
 color: #f6f;
-position: fixed;
+position: inherit;
 top: 0;
 z-index: 10;
 height: 85px

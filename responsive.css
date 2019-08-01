@@ -1,5 +1,8 @@
 /* For Tablets */
 @media all and (max-width: 1000px) {
+
+
+
   .career-path {
     width: 50%;
     margin-bottom: 50px;
@@ -30,16 +33,15 @@
   }
   
   
+  header{
+    position: ;
+  }
+
  .header-logo img { 
-  margin: 0;
+  margin-left: ;
   padding: 0;
 }
 
-  /* 
-  Add CSS for menu-icon 
-  .icon {
-    display: block;
-  }*/
   
   .top-container h1 {
     font-size: 24px;

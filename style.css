@@ -23,30 +23,36 @@ box-sizing: border-box;
 clear: left;
 }
 
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
 
 header{
 background-color: crimson;
-width: 100%;
 color: #f6f;
 position: inherit;
 top: 0;
 z-index: 10;
-height: 85px
+height: 85px;
+max-width: 100%;
 }
 
-header a{
-font-size: 20px;
-margin-left: 0.3rem;
-}
+
+
 
 .header-logo{
-float: left;
+float: right;
 }
 
 .header-logo img {
-border-radius: 155px;
-height: 80px;
-margin: 0 2rem;
+border-radius: 150px;
+height: 85px;
+margin: 0 7rem;
+max-width: 100%;
+vertical-align: top;
 transition: transform 1s;
 }
 
@@ -56,17 +62,15 @@ transform: scale(1.2);
 
 
 .header_navbar{
-  font-size: 10px;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .header_navbar a{
 color: #fff;
-padding: 0 2rem;
-float:;
-}
-
-.icon {
-  display: none;
+padding: 0 4rem;
+text-transform: uppercase;
 }
 
 
@@ -75,9 +79,18 @@ float:;
 }
 
 
+
+main {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+
 .container {
   width: 100%;
-  padding: 0 0px;
+  padding: 0 4px;
   margin: 0 3rem;
 }
 
@@ -86,7 +99,7 @@ float:;
 background-image: url(./images/cool.jpg);
 background-size: cover;
 text-align: center;
-padding: 180px 0 100px 0;
+max-width: 100%;
 }
 
 .top-container h1 {
@@ -109,7 +122,6 @@ display: inline-block;
 text-decoration: none;
 color: white;
 font-weight: 700;
-
 padding: 0.5em 2em;
 border-radius: 40px;
 margin: 1em 0;

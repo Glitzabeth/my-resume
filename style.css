@@ -171,16 +171,17 @@ transition: 0.3s;
   color: #b3aeb5;
 }
 
-  footer {
-    background-color: #2f5167;
-    padding: 40px;
-    width: 100%;
-  }
+footer {
+  background-color: #2f5167;
+  padding: 1em;
+  width: 100%;
+ }
   
 .footer_navbar a{
 color: #fff;
-margin-right: 3rem;
-font-size: 20px
+margin: 0 1rem;
+font-size: ;
+display: inline-block;
 }
 
 /*Reponsiveness*/

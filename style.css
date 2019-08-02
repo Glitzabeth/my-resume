@@ -29,6 +29,10 @@ ul {
   margin: 0;
 }
 
+.intro {
+ color: #6c757d;
+ text-align: center;
+}
 
 header{
 background-color: crimson;

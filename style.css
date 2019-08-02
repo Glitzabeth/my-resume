@@ -85,13 +85,15 @@ main {
     max-width: 100%;
     margin-left: auto;
     margin-right: auto;
+    display: block !important;
     }
 
 
 .container {
   width: 100%;
   padding: 0 4px;
-  margin: 0 3rem;
+  margin: 0 auto;
+  overflow: hidden;
 }
 
 
@@ -181,3 +183,60 @@ margin-right: 3rem;
 font-size: 20px
 }
 
+/*Reponsiveness*/
+/* For Tablets */
+@media all and (max-width: 1000px) {
+
+
+
+  .career-path {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+  
+  .top-container h1  {
+    font-size: 32px;
+  }
+  
+  .section-title h3 {
+    font-size: 20px;
+  }
+}
+
+/* For Smartphones */
+@media all and (max-width: 670px) {
+  .career-path {
+    width: 100%;
+  }
+
+  
+  footer {
+    text-align: center;
+  }
+  
+  .top-container {
+    text-align: left;
+  }
+  
+  
+  header{
+    position: ;
+  }
+
+ .header-logo img { 
+  margin-left: ;
+  padding: 0;
+}
+
+  
+  .top-container h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  
+  .top-container h1 {
+     font-size: 14px;
+    line-height: 20px;
+  }
+
+}

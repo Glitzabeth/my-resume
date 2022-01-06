@@ -40,7 +40,7 @@ color: #f6f;
 position: inherit;
 top: 0;
 z-index: 10;
-height: 150px;
+height: 90px;
 max-width: 100%;
 }
 
@@ -48,12 +48,12 @@ max-width: 100%;
 
 
 .header-logo{
-float: left;
+float: right;
 }
 
 .header-logo img {
 border-radius: 150px;
-height: 150px;
+height: 90px;
 margin: 0 7rem;
 max-width: 100%;
 /*vertical-align: top;*/
@@ -69,11 +69,12 @@ transform: scale(1.5);
   font-size: 20px;
   margin-left: auto;
   margin-right: auto;
+  vertical-align: top;
 }
 
 .header_navbar a{
 color: #fff;
-padding: 0 4rem;
+/*padding: 0 4rem;*/
 text-transform: uppercase;
 }
 

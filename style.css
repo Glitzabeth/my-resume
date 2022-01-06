@@ -48,7 +48,7 @@ max-width: 100%;
 
 
 .header-logo{
-float: right;
+float: left;
 }
 
 .header-logo img {
@@ -69,15 +69,12 @@ transform: scale(1.5);
   font-size: 20px;
   margin-left: auto;
   margin-right: auto;
-  vertical-align: top;
-  float: left;
 }
 
 .header_navbar a{
 color: #fff;
 padding: 0 4rem;
 text-transform: uppercase;
-text: left;
 }
 
 

@@ -52,9 +52,9 @@ float: right;
 }
 
 .header-logo img {
-border-radius: 120px;
-height: 100px;
-margin: 0 5rem;
+border-radius: 180px;
+height: 120px;
+margin: 0 4rem;
 max-width: 100%;
 /*vertical-align: top;*/
 transition: transform 1s;

@@ -61,7 +61,7 @@ transition: transform 1s;
 }
 
 .header-logo img:hover {
-transform: scale(2.5);
+transform: scale(1.5);
 }
 
 
@@ -69,6 +69,7 @@ transform: scale(2.5);
   font-size: 20px;
   margin-left: auto;
   margin-right: auto;
+  vertical-align: top;
 }
 
 .header_navbar a{

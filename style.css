@@ -54,7 +54,7 @@ float: right;
 .header-logo img {
 border-radius: 150px;
 height: 90px;
-margin: 0 7rem;
+margin: auto;
 max-width: 100%;
 /*vertical-align: top;*/
 transition: transform 1s;
@@ -74,7 +74,7 @@ transform: scale(1.5);
 
 .header_navbar a{
 color: #fff;
-/*padding: 0 4rem;*/
+padding: 0 4rem;
 text-transform: uppercase;
 }
 

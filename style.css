@@ -53,7 +53,7 @@ float: right;
 
 .header-logo img {
 border-radius: 150px;
-height: 120px;
+height: 150px;
 margin: 0 7rem;
 max-width: 100%;
 vertical-align: top;
@@ -61,7 +61,7 @@ transition: transform 1s;
 }
 
 .header-logo img:hover {
-transform: scale(1.2);
+transform: scale(2.5);
 }
 
 

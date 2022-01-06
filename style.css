@@ -40,7 +40,7 @@ color: #f6f;
 position: inherit;
 top: 0;
 z-index: 10;
-height: 90px;
+height: 85px;
 max-width: 100%;
 }
 
@@ -53,15 +53,15 @@ float: right;
 
 .header-logo img {
 border-radius: 150px;
-height: 90px;
-margin: auto;
+height: 100px;
+margin: 0 5rem;
 max-width: 100%;
 /*vertical-align: top;*/
 transition: transform 1s;
 }
 
 .header-logo img:hover {
-transform: scale(1.5);
+transform: scale(1.9);
 }
 
 
